@@ -1,0 +1,12 @@
+{
+    "service": {
+      "port": 8014,
+      "name": "news-application-project"
+    },
+    "db": {
+      "host": "localhost",
+      "port": 3306,
+      "name": "newsApplication",
+      "user": "root"
+    }
+  }
