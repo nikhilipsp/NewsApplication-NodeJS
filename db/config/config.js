@@ -12,7 +12,7 @@ module.exports = {
   },
   "development": {
     "username": "root",
-    "password": "your db password",
+    "password": process.env.dbpassword,
     "database": "newsApplication",
     "host": "localhost",
     "dialect": "mysql"
